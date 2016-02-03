@@ -3,7 +3,7 @@
 A simple template with webpack, express, jade and stylus
 
 structure 
-
+´´´
 /
   /src
     server
@@ -12,3 +12,4 @@ structure
   /dist (generated)
   index.js
   ... (any files of configuration)
+´´´
