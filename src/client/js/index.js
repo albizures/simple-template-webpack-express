@@ -1,2 +1,2 @@
 'use strict';
-require('./style/index.styl');
+require('../style/index.styl');
