@@ -5,12 +5,11 @@ const webpack = require('webpack'),
       ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const ROOT_PATH = path.resolve(__dirname),
-      APP_PATH = path.resolve(ROOT_PATH,'client','index.js'),
-      CLIENT_PATH = path.resolve(ROOT_PATH,'client'),
-      BUILD_PATH = path.resolve(ROOT_PATH,'..' ,'dist'),
-      MODULES_PATH = path.resolve(__dirname , '..','node_modules'),
-      ASSETS_PATH = path.resolve(BUILD_PATH ,'assets');
-console.log(path.resolve(CLIENT_PATH,'template', 'index.jade'));
+      APP_PATH = path.resolve(ROOT_PATH,'client', 'js','index.js'),
+      CLIENT_PATH = path.resolve(ROOT_PATH, 'client'),
+      BUILD_PATH = path.resolve(ROOT_PATH, '..' ,'dist'),
+      MODULES_PATH = path.resolve(__dirname, '..', 'node_modules'),
+      ASSETS_PATH = path.resolve(BUILD_PATH, 'assets');
 module.exports = {
   devtool : 'eval',//'eval-source-map',
   entry:  APP_PATH,
@@ -18,7 +17,6 @@ module.exports = {
     path: BUILD_PATH,
     filename: "app.js"
   },
-
   plugins: [
     //new webpack.HotModuleReplacementPlugin(),
     //new webpack.NoErrorsPlugin(),
