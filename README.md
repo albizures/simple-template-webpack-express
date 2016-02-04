@@ -23,5 +23,5 @@ git remote add template https://github.com/albizures/simple-template-webpack-exp
 ```
 4. Fecth the files
 ```
-git pull origin template
+git pull template master
 ```
