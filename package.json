@@ -1,6 +1,6 @@
 {
   "name": "simple-template-webpack-express",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A simple template with webpack and express",
   "main": "index.js",
   "scripts": {
