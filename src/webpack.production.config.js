@@ -2,7 +2,6 @@ const webpack = require('webpack');
 const config = require('./server/config/environment');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpackConfig = require('./webpack.config.js')(config);
-console.log(webpackConfig.module);
 
 module.exports = {
   entry: config.APP_PATH,

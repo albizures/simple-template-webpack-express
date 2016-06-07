@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
-    "deploy": "NODE_ENV=production&set NODE_ENV=production&node src/webpack.production.config.js& gh-pages -d public"
+    "build": "NODE_ENV=production&set NODE_ENV=production&node src/webpack.production.config.js",
+    "production" : "npm run build && NODE_ENV=production&set NODE_ENV=production&node index.js"
    },
   "keywords": [
     "express",
